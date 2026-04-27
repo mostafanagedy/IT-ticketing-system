@@ -1,0 +1,77 @@
+.registerPage {
+  background-color: #352f61;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+}
+.langIcon{
+  background-color: #ccc;
+  width: 30px;
+  position: absolute;
+  top: 20px;
+  right: 10px;
+}
+.registerTitle{
+  margin-bottom: 20px;
+}
+.registerCard {
+  background-color: #fff;
+  padding: 20px;
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.registerForm {
+  display: flex;
+  justify-content: space-between;
+   align-items: center;
+}
+.inputField{
+  justify-content: center;
+   width: 80%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  border-radius: 5px;
+}
+.submitButton {
+  width: 40%;
+  padding: 12px;
+  background-color: #352f61;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.errorMessage {
+  color: #d62828;
+  margin-top: 0;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.successMessage {
+  color: #2a9d8f;
+  margin-top: 0;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.registerImage img {
+  width: 80%;
+  max-width: 300px;
+  margin-top: 20px;
+}
+
+
+p{
+  text-align: center;
+  margin-top: 20px;
+  color: #413888;
+}
+.logeinBage{
+  text-decoration: none;
+}
